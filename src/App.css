@@ -14,16 +14,186 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: transparent linear-gradient(241deg, #fcf2e8 0%, #f6eaff 100%) 0%
+    0% no-repeat padding-box;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
+}
+.card {
+  width: 630px;
+  height: 311px;
+  background: transparent linear-gradient(246deg, #fefaf4 0%, #f9e8ff 100%) 0%
+    0% no-repeat padding-box;
+  border: 14px solid white;
+  border-radius: 30px;
+  @media screen and (max-width:567px) {
+    width: auto;
+    height: auto;
+    }
+}
+.container {
+  padding-left: 7%;
+  display: flex;
+  padding-top: 5%;
+  padding-right: 6%;
+  display: flex;
+
+  @media screen and (max-width:567px) {
+  flex-wrap: wrap; 
+  padding-bottom: 5%;
+  justify-content: center;
+  }
 }
 
+.left {
+  width: 30%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+.man {
+  border: 10px solid #d9c3e1;
+  border-radius: 87px;
+}
+
+.right {
+  width: 70%;
+  padding-top: 3%;
+  padding-left: 5%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+}
+.iconDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 10%;
+}
+.name {
+  text-align: left;
+  font: normal normal bold 24px/39px Noteworthy;
+  font-family: cursive;
+  font-size: 24px;
+  @media screen and (max-width:567px) {
+    text-align: center;
+  }
+  
+}
+.desig {
+  font: normal normal normal 14px/19px Nadeem;
+  letter-spacing: 0px;
+  color: #606278;
+  text-align: left;
+  font-family: sans-serif;
+  @media screen and (max-width:567px) {
+    text-align: center;
+  }
+}
+.intro {
+  
+  text-align: left;
+  font: normal normal normal 13px/20px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  font-family: sans-serif;
+  padding-top: 4%;
+  @media screen and (max-width:567px) {
+    text-align: center;
+  }
+}
+.follow {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -10%;
+  padding-top: 6%;
+  @media screen and (max-width:567px) {
+   margin-left: 0;
+  }
+}
+.block1 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 9%;
+  /* padding-top: 6%; */
+  border-right: 1px solid black;
+  @media screen and (max-width:467px) {
+    padding-right: 7%;
+
+  }
+}
+.block3 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 9%;
+}
+.content {
+  text-align: center;
+  font: normal normal normal 11px/17px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  font-family: sans-serif;
+}
+.btnDiv {
+  padding-top: 7%;
+  display: flex;
+  justify-content: space-around;
+    width: 65%;
+    margin-left: -3%;
+    @media screen and (max-width:567px) {
+      width: 100%;
+    }
+}
+
+.followBtn {
+  min-width: 93px;
+  height: 37px;
+  background: #bc43b1 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  border-radius: 6px;
+  border-color: transparent;
+  color: white;
+}
+.lockBtn {
+  min-width: 93px;
+  height: 37px;
+  background: #ffbd95 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  border-radius: 6px;
+  border-color: transparent;
+  color: black;
+}
+
+.lock {
+  width: 9px;
+  height: 12px;
+}
+
+/* .image-btn{
+  background: none;
+  border: none;
+  padding: 0;
+} */
+.image-btn img {
+  display: block; /* to remove extra space below image */
+}
+.icons{
+  width: 25px;
+height: 16px;
+}
+.icon2{
+  width: 16px;
+height: 16px;
+}
+.icon3{
+  width: 17.7px;
+height: 16px;
+}
 .App-link {
   color: #61dafb;
 }
