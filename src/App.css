@@ -31,6 +31,7 @@
     0% no-repeat padding-box;
   border: 14px solid white;
   border-radius: 30px;
+  box-shadow: -10px 12px 26px #00000029;
   @media screen and (max-width:567px) {
     width: auto;
     height: auto;
